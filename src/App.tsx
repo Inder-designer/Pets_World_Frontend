@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router";
-import Home from "./Pages/Home";
+// import Home from "./Pages/Home";
+import Web3 from "./Pages/Web3/Web3.tsx";
 import Layout from "./Layout/Layout";
 import Login from "./Components/Auth/Login";
 
@@ -12,6 +13,10 @@ const App = () => {
         {
           path: "/",
           element: <Login />,
+        },
+        {
+          path: "/web3",
+          element: <Web3 />,
         },
       ],
     },
