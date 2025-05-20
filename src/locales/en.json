@@ -1,0 +1,23 @@
+{
+  "brand": "AIRBNB",
+  "dashboard": "Dashboard",
+  "properties": "Properties",
+  "users": "Users",
+  "amenities": "Amenities",
+  "categories": "Categories",
+  "settings": "Settings",
+  "personalInfo": "Personal Info",
+  "changePassword": "Change Password",
+  "policies": "Policies",
+  "notification": "Notification",
+  "logout": "Log Out",
+  "logoutConfirmTitle": "Are you sure?",
+  "logoutConfirmDesc": "Do you want to logout?",
+  "logoutLoading": "Logging out...",
+  "logoutSuccess": "Logout successful!",
+  "logoutError": "Failed to logout!",
+  "records": "Records",
+  "bookings": "Bookings",
+  "payoutInfo": "Payout Info",
+  "refunds": "Refunds"
+}

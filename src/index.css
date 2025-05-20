@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+
+@plugin "flowbite/plugin";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+@theme {
+  --color-primary: #f07e2c;
+  --color-primary-focus: #ec6d13;
+  --color-primary-accent: #fefae0;
+  --color-color1: #121212;
+  --color-color2: #2c3437;
+  --color-border: #d4d3d9;
+  --text-shadow-xl: -0.03ex 0 currentColor, 0.03ex 0 currentColor;
+  --font-family: "open-sans", sans-serif;
+}
+@layer base {
+  * {
+    @apply duration-300 font-family;
+  }
+}
+@layer utilities {
+  .container {
+    @apply max-w-[1400px] mx-auto px-4 md:px-6;
+  }
+}
+@layer components {
+  .card {
+    @apply bg-white rounded-lg shadow-md p-4;
+  }
+  .btn1 {
+    @apply border border-primary hover:border-color1 bg-primary text-white py-2.5 px-6 font-medium rounded-full hover:bg-color1 cursor-pointer flex items-center justify-center;
+  }
+  .btn2 {
+    @apply border border-color1 text-color1 py-2.5 px-6 font-medium rounded-full hover:border-primary hover:text-primary cursor-pointer flex items-center justify-center;
+  }
+  .btn3 {
+    @apply border border-primary bg-primary text-white py-2.5 px-6 font-medium rounded-full cursor-pointer flex items-center justify-center;
+    @apply hover:border-primary-focus hover:bg-primary-focus;
+    @apply disabled:cursor-not-allowed disabled:hover:bg-primary disabled:hover:border-primary disabled:opacity-40;
+  }
+  .card1 {
+    @apply bg-primary/10 border border-primary hover:border-[#167cd8] hover:bg-[#167cd8] hover:invert rounded-lg px-4 py-6 flex flex-col items-center justify-center gap-3;
+  }
+}

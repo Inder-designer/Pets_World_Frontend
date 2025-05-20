@@ -1,0 +1,23 @@
+{
+    "brand": "Airbnb",
+    "dashboard": "Tableau de bord",
+    "properties": "Propriétés",
+    "users": "Utilisateurs",
+    "amenities": "Équipements",
+    "categories": "Catégories",
+    "settings": "Paramètres",
+    "personalInfo": "Informations personnelles",
+    "changePassword": "Changer le mot de passe",
+    "policies": "Politiques",
+    "notification": "Notification",
+    "logout": "Déconnecter",
+    "logoutConfirmTitle": "Es-tu sûr?",
+    "logoutConfirmDesc": "Voulez-vous vous connecter?",
+    "logoutLoading": "Connexion ...",
+    "logoutSuccess": "Déconnexion réussie!",
+    "logoutError": "Échec de la déconnexion!",
+    "records": "Enregistrements",
+    "bookings": "Réservations",
+    "payoutInfo": "Informations sur le paiement",
+    "refunds": "Remboursement"
+  }

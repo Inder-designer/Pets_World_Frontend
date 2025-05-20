@@ -1,0 +1,23 @@
+{
+  "brand": "Airbnb",
+  "dashboard": "لوحة القيادة",
+  "properties": "ملكيات",
+  "users": "المستخدمون",
+  "amenities": "وسائل الراحة",
+  "categories": "فئات",
+  "settings": "إعدادات",
+  "personalInfo": "معلومات شخصية",
+  "changePassword": "تغيير كلمة المرور",
+  "policies": "السياسات",
+  "notification": "إشعار",
+  "logout": "تسجيل الخروج",
+  "logoutConfirmTitle": "هل أنت متأكد؟",
+  "logoutConfirmDesc": "هل تريد تسجيل الدخول؟",
+  "logoutLoading": "تسجيل الخروج ...",
+  "logoutSuccess": "تسجيل الخروج ناجح!",
+  "logoutError": "فشل في تسجيل الخروج!",
+  "records": "السجلات",
+  "bookings": "الحجوزات",
+  "payoutInfo": "معلومات الدفع",
+  "refunds": "المبالغ المستردة"
+}
